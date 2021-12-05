@@ -1,0 +1,380 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Lora' serif;
+    font-size:20px;
+    line-height:28px;
+    box-sizing:border-box;
+}
+
+/*universal css....row-12 col=100% */
+.row{
+    width:100%;
+    margin-left:-15;
+    margin-right:-15;
+}
+.col-sm-9{
+    width:75%;
+    float:left;
+}
+.col-sm-8{
+    width:66.66666667%;
+    float:left;
+}
+.col-sm-6{
+    width:50%;
+    float:left;
+}
+.col-sm-4{
+    width:33.33333333%;
+    float:left;
+}
+.col-sm-3{
+    width:25%;
+    float:left;
+}
+
+
+/*End-universal css*/
+
+
+ /* Start Nav-bar css */
+.menu-bar{
+    background-color:#158771;
+    text-align:center;
+    position:relative;
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style:none;
+    color:#f7f9f9;
+}
+
+.menu-bar ul li{
+    width:120px;
+    margin:15px;
+    padding:14px;
+}
+
+.menu-bar ul li a{
+    text-decoration:none;
+    color:#ffffff;
+    font-size:18px;
+}
+
+
+.active, .menu-bar ul li:hover{
+ background:#0d5368;
+ border-radius:3px;
+ 
+}
+
+.menu-bar .fa{
+    margin-right:8px;
+}
+
+.sub-menu-1{
+    display:none;
+}
+
+
+.menu-bar ul li:hover .sub-menu-1{
+    display:block;
+    position:absolute;
+    background:#0d5368;
+    margin-top:15px;
+    margin-left:-15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display:block;
+    margin:10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width:150px;
+    padding:10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius:0;
+    text-align:left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom:none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color:#9fdeeed0;
+}
+
+.fa-angle-right{
+    float:right;
+}
+.sub-menu-2{
+    display:none;
+}
+
+.hover-me:hover .sub-menu-2{
+    position:absolute;
+    display:block;
+    margin-top:-40px;
+    margin-left:140px;
+    background:#0d5368;
+}
+  /* End-nav-bar-css */
+
+  
+  /* start-Calculator css */
+.box{
+    background-color:#f1f1f1;
+    width:45%;
+    line-height:50px;
+    border:1px solid darkturquoise;
+    text-align:center;
+    padding:70px 100px;
+}
+
+
+#clear{
+    width:180px;
+    padding:10px;
+    font-size:16px;
+}
+
+#start{
+    width:180px;
+    height:40px;
+    padding:9px;
+}
+
+#boxes{
+    width:57px;
+    height:34px;
+    line-height:20px;
+    font-size:20px;
+    border:2px ridge rgb(41 201 113);
+}
+
+.box input{
+    background-color:rgb(93 134 161);
+    color:#c8f3df;
+    font-size:18px;
+
+}
+
+/* End-calculator  css*/
+
+
+ /* Start Index or home file css*/
+
+ .backgroundhome{
+    background:url("assets/pic0.jpg") center no-repeat;
+    background-size:cover;
+    height:100vh;
+}
+  /* End-home/index file css */
+
+
+/* Start about us file css */
+   
+.row{
+    width:100%;
+    margin-left:-15;
+    margin-right:-15;
+}
+.col-sm-9{
+    width:75%;
+    
+}
+.col-sm-8{
+    width:66.66666667%;
+   
+}
+.col-sm-6{
+    width:50%;
+   
+}
+.col-sm-4{
+    width:33.33333333%;
+   
+}
+.col-sm-3{
+    width:25%;
+   
+}
+
+.about-parent {
+    background-color:rgb(17 58 50);
+    height:400px;
+    color:#c5c2c2;
+}
+
+.about-child{
+    position:absolute;
+    border: 1px solid #b5a8a8;
+    background-color: #f1f1f1;
+    width: calc(100% - 50%);
+    height: 400px;
+    padding:65px 70px;
+    text-align: justify;
+    top:40%;
+    left:25%;
+}
+
+.head{
+    text-align: center;
+    top: 25%;
+    position: relative;
+    font-size:50px;
+}
+/* End about us css */
+
+/* Start- Services file css */
+.service-parent{
+    background-color:rgb(8 1 46);
+    height:400px;
+    color:#c5c2c2;
+    text-align:center;
+}
+.boxs{
+    float:left;
+    width:33.33%;
+    padding: 80px 40px 80px;
+    text-align:center;
+}
+
+.boxs-first{
+    float:left;
+    width:33.33%;
+    padding: 80px 40px 80px 80px;
+    text-align:center;
+}
+
+.boxs-last{
+    float:left;
+    width:33.33%;
+    padding: 80px 80px 80px 40px;
+    text-align:center;
+}
+.boxs-in{
+    border: 1px solid lightblue;
+    padding:50px;
+}
+
+.icon-img{
+    width:100px;
+}
+.clearfix{
+
+}
+
+/* End-Services file css */
+
+/* Start- Clients file css */
+
+.testimon1{
+    padding:40px 0;
+    background:#c3bfbf;
+    color:#434343;
+    text-align:center;
+}
+.test1{
+    max-width:1200px;
+    margin:auto;
+    overflow:hidden;
+    padding: 10px; 20px;
+}
+
+.test2{
+    width:160px;
+    height:5px;
+    background:#6ab04c;
+    margin: 26px auto;
+}
+.test-row{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.test-col{
+    flex:33.33%;
+    max-width:33.33%;
+    box-sizing:border-box;
+    padding:15px;
+}
+.testimon2{
+    background:#fff;
+    padding:30px;
+
+}
+.testimon2 img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}
+
+.test-name{
+    font-size:20px;
+    text-transform:uppercase;
+    margin:20px 0;
+
+}
+
+.stars{
+    color:#6ab04c;
+    margin-bottom:20px;
+}
+.text-justify{
+    text-align:justify;
+}
+
+
+/* End- Clients file css *
+
+
+/* Start-investers file css */
+.investers-parent{
+    background-color:#d8f6f7;
+    height:500px;
+}
+.investers-child {
+    position:absolute;
+    border: 1px solid #b5a8a8;
+    background-color: #f1f1f1;
+    width: calc(100% - 50%);
+    padding:65px 70px;
+    text-align: justify;
+    top:40%;
+    left:25%;
+}
+
+.border{
+    border: 10px solid #dddddd;
+    padding: 25px;
+}
+
+
+
+
+
+/* End-investers file css */
+
+
+
+
+
+
+/* Start- Mission file css */
+
+.mission{
+    background:url("image2.jpg") center no-repeat;
+    background-size:cover;
+    height:100vh;
+}
+  
+  /* End-Mission file css */
+
+
