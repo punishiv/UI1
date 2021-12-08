@@ -2,7 +2,7 @@
     padding:0;
     margin:0;
     font-family: 'Lora' serif;
-    font-size:20px;
+    /* font-size:20px; */
     line-height:28px;
     box-sizing:border-box;
 }
@@ -129,32 +129,32 @@
   /* start-Calculator css */
 .box{
     background-color:#f1f1f1;
-    width:45%;
+
     line-height:50px;
     border:1px solid darkturquoise;
     text-align:center;
-    padding:70px 100px;
+    padding:100px 80px;
 }
 
 
 #clear{
-    width:180px;
+    width:250px;
     padding:10px;
-    font-size:16px;
+    font-size:22px;
 }
 
 #start{
-    width:180px;
-    height:40px;
-    padding:9px;
+    width:250px;
+    height:45px;
+    padding:24px;
 }
 
 #boxes{
-    width:57px;
-    height:34px;
-    line-height:20px;
-    font-size:20px;
+    width:80px;
+    height:50px;
+    font-size:22px;
     border:2px ridge rgb(41 201 113);
+    margin:3px 0;
 }
 
 .box input{
@@ -227,7 +227,7 @@
     text-align: center;
     top: 25%;
     position: relative;
-    font-size:50px;
+    /* font-size:50px; */
 }
 /* End about us css */
 
@@ -284,7 +284,7 @@
     max-width:1200px;
     margin:auto;
     overflow:hidden;
-    padding: 10px; 20px;
+    padding: 10px 20px;
 }
 
 .test2{
@@ -343,6 +343,8 @@
 .investers-child {
     position:absolute;
     border: 1px solid #b5a8a8;
+    outline: 2px solid #358ec2;
+    outline-offset:60px;
     background-color: #f1f1f1;
     width: calc(100% - 50%);
     padding:65px 70px;
@@ -356,17 +358,147 @@
     padding: 25px;
 }
 
-
-
-
-
 /* End-investers file css */
 
+/* Start- Contact file css */
+
+.contact-parent{
+    /* padding:40px 0;
+    background:#c3bfbf;
+    color:#434343;
+    text-align:center; 
+    */
+    padding:40px 0;
+    background:#eceaea;
+    color:#434343;
+    text-align:center;
+}
+.cont{
+    max-width:1200px;
+    margin:auto;
+    overflow:hidden;
+    /* padding: 10px 20px; */
+}
+.cont1{
+    padding:50px;
+}
+.flex{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.unlist{
+    list-style-type:circle;
+    list-style-position:inside;
+}
+
+.input-w1{
+    width:350px;
+    height:45px;
+}
+.input-w2{
+    height:45px;
+}
+#but{
+    width: 160px;
+    padding: 7px;
+    border:none;
+    cursor:pointer;
+    border-radius:2px;
+    color: #fff;
+    background: #158771;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#but:hover{
+    background:#0d5368;
+    box-shadow:0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.field-set{
+    padding:55px 0;
+    width:95%;
+    height: 75vh;
+}
+#status{
+    width:90%;
+    max-width:500px;
+    text-align:center;
+    padding:10px;
+    margin:0 auto;
+    border-radius:5px;
+}
+#status.scucess{
+    background-color:#158771;
+}
+
+#status.error{
+    background-color:red;
+    color:#fff;
+    animation:status 4s ease forwards;
+}
+/* @keyframes status{
+    0%{
+        opacity:1;
+        pointer-events:all;
+    }
+    90%{
+        opacity:1;
+        pointer-events:all;
+    }
+    100%{
+        opacity:0;
+        pointer-events:none;
+    }
+
+} */
+/* End- Contact file css */
+
+/* Start-Training file css */
+.training-parent {
+ position:relative;
+}
+.center{
+    position:absolute;
+    top:25%;
+    left:13%;
+    /* transform: translate(-150%, -125%); */
+    font-size:18px;
+}
+.training-img{
+    width:100%;
+    opacity:0.8;
+}
+
+.training-child{
+    text-align: center;
+    padding: 55px 250px;
+}
+
+.training-3p{
+        padding: 25px 100px;
+        text-align: center;
+}
+.training-3p table{
+    margin:0 auto;
+}
+
+#training-tr i{
+    margin: 30px;
+    padding: 40px;
+    width: 145px;
+    color: goldenrod;
+    border: 2px ridge #eee;
+    text-align:center;
+    outline-offset: 15px;
+    border-radius: 50%;
+
+}
+#td-font {
+    font-size:60px;
+}
 
 
-
-
-
+/* End-Training file css */
 /* Start- Mission file css */
 
 .mission{
